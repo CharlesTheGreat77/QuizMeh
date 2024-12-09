@@ -1,0 +1,500 @@
+{
+  "Exam": {
+    "true_false": [
+      {
+        "question": "Ammonites are one of the most important index fossils of Mesozoic strata.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "In a geological map, the strikes of sedimentary rocks tell whether the rocks are folded.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "\"The present is the key to the past\" applies 'Uniformitarianism'.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "Graded bedding and cross-bedding can be used to determine whether the strata are upside down.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "In the geological history, increase of organic carbon burial for a significantly long time (e.g., many thousands of years) would result in global cooling and increase of atmospheric oxygen.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "Dr. Kent wants to know the precise age of a rock that contains the earliest animal fossils. The best method he can use is the K-Ar dating of zircons.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "The age of the Earth is older than the oldest zircon ages obtained from the rock record in Australia and Canada.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "The thickness of the continental crust is smaller than that of the oceanic crust.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "Carbonate sediments are most common in transitional environments such as delta and estuaries.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "The grain sizes of sandstones vary from 0.0625 to 2 mm.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "Dating the handwriting in a book that was written in the 11th century commonly uses ¹⁴C dating.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "The Era from 541 to 252 Ma in Earth history is called the Mesozoic Era.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "A sandstone that contains 95% of quartz is compositionally more mature than a sandstone that contains 30% of feldspars.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "A sandstone composed of grains from 0.4 mm to 0.5 mm is considered as better sorted than a sandstone with grains from 0.1 to 1.5 mm.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "Diamictite and tillite are evidence of ancient glacial deposits. They are commonly grain-supported, well sorted and compositionally mature.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "Igneous rocks that were formed by fast cooling of magmas in surface environments (e.g., rhyolite and basalt) commonly have larger mineral crystals than those formed by slow cooling magmas in subsurface (e.g., granite and gabbro).",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "The stratigraphic interval covering the total range of a species or other taxon is called a range zone.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "The \"ring of fires\" refers to the volcanos and hot spots surrounding the Pacific Plate.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "Fossil permineralization may include calcification, phosphatization, pyritization, and silicification.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "Atomic mass number of an element refers to the sum of protons and neutrons of the atom.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "The two most abundant silicate minerals of the Earth's crust are quartz and feldspar.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "Primary (P) and Secondary (S) seismic waves can both penetrate the liquid outer core, but the surface waves cannot.",
+        "choices": {
+          "A": "True",
+          "B": "False"
+        },
+        "answer": "B"
+      }
+    ],
+    "multiple_choice": [
+      {
+        "question": "Dinosaurs disappeared about 65 million years ago at the end of the Cretaceous Period. Evidence for the hypothesis that the extinction of dinosaurs was caused by meteorite impact include",
+        "choices": {
+          "A": "the unconformity in the 65-million-year-old strata",
+          "B": "volcanos found in northern India",
+          "C": "dinosaur fossils of the Jurassic strata",
+          "D": "Iridium anomaly from a thin clay layer of ~65 million years old",
+          "E": "abundant feldspar and quartz in 65-million-year-old rocks"
+        },
+        "answer": "D"
+      },
+      {
+        "question": "The age of the oldest zircon grains from a metamorphosed sandstone in Australia is about",
+        "choices": {
+          "A": "4.03 billion years",
+          "B": "4.36 billion years",
+          "C": "2.7 billion years",
+          "D": "4.60 billion years"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "When you read a geological map, which of the following information can tell you that the sedimentary rocks are folded?",
+        "choices": {
+          "A": "the topographic contours",
+          "B": "the color of the mapping units",
+          "C": "the dips of sedimentary rocks",
+          "D": "the Formation names of the geological units",
+          "E": "igneous rocks"
+        },
+        "answer": "C"
+      },
+      {
+        "question": "In a beach or barrier island shore, well-sorted quartz sandstone is commonly deposited. However, in an alluvial fan environment, matrix-supported conglomerates and sandstone are the major deposits. Based on this information, we can say that",
+        "choices": {
+          "A": "sediments of beach environments have higher maturity than those of alluvial fans",
+          "B": "sediments of beach environments have lower maturity than those of alluvial fans",
+          "C": "sediments of beach environments have maturity similar to those of alluvial fans",
+          "D": "it is impossible to determine"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "Minerals tend to have larger crystals if they were derived from a slow cooling process. Dunite is an ultramafic rock formed at high temperature and high pressure in depth, while basalt is an extrusive rock formed by volcanic eruptions. From this information, you can infer that",
+        "choices": {
+          "A": "dunite may have gas bubbles as basalt has",
+          "B": "dunite should have smaller mineral crystals than basalt",
+          "C": "dunite should have the same mineral crystal sizes as basalt",
+          "D": "dunite should have larger mineral crystals than basalt",
+          "E": "dunite has no mineral crystals because of the high temperature"
+        },
+        "answer": "D"
+      },
+      {
+        "question": "Among the following metamorphic rocks derived from mudstones or shales, which one has the highest metamorphic grade?",
+        "choices": {
+          "A": "schist",
+          "B": "phyllite",
+          "C": "slate",
+          "D": "limestone"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "Index fossils are important for geologists to tell the time of a specific stratigraphic unit. An index fossil should have",
+        "choices": {
+          "A": "slow rate of evolution and long span of existence",
+          "B": "cosmopolitan distribution, good preservation, and a relatively short span of existence.",
+          "C": "lived in shallow marine environments as benthic communities",
+          "D": "geographic restrictions"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "Animals first appeared in Earth history about 600 million years ago during the",
+        "choices": {
+          "A": "Late Paleozoic",
+          "B": "Mesozoic",
+          "C": "late Neoproterozoic",
+          "D": "Late Silurian"
+        },
+        "answer": "C"
+      },
+      {
+        "question": "Vertebrate forelimbs serve different functions (flippers for swimming, legs for running, hands, etc.), but all have similar bone construction. This similarity of structures in superficially dissimilar organisms is termed as",
+        "choices": {
+          "A": "gradual evolution",
+          "B": "mutations",
+          "C": "allopatric speciation",
+          "D": "vestigial organs",
+          "E": "homologous"
+        },
+        "answer": "E"
+      },
+      {
+        "question": "The study of all that has happened to organisms from the moment of death to final preservation as fossils is termed as",
+        "choices": {
+          "A": "Taxonomy",
+          "B": "Phylogeny",
+          "C": "Taphonomy",
+          "D": "Evolutional experiments",
+          "E": "Genetic study"
+        },
+        "answer": "C"
+      },
+      {
+        "question": "In continents, regions with exposure of crystalline basement of Precambrian age (> 2.5 billion years) that are stable and undeformed during the past 500 Ma are named as",
+        "choices": {
+          "A": "cratons",
+          "B": "continental shields",
+          "C": "continental basins",
+          "D": "orogenic belts"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "In the Wilson cycles of plate tectonics, continental rifting, seafloor spreading, ocean-continental collision, and continental-continental collision represent the open and close of oceans. The Himalaya mountains represent the result of:",
+        "choices": {
+          "A": "ocean-continental collision",
+          "B": "continental-continental collision",
+          "C": "continental rifting",
+          "D": "subduction",
+          "E": "island arc accretion"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "A sudden pulse toward high carbon isotope (δ¹³C) values recorded in the marine stratigraphic record can indicate an episode of",
+        "choices": {
+          "A": "increased burial of nitrogen",
+          "B": "increased burial of organic carbon",
+          "C": "increased burial of oxygen",
+          "D": "deposition of banded iron formation (BIF)"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "In the following items, which ones are evidence for continental drift?",
+        "choices": {
+          "A": "Synclines, anticlines, and rift basins",
+          "B": "Animal and human migration from one continent to another during Holocene",
+          "C": "Geographic fit of continental contours, biogeographic similarity, geological similarities and the Pennsylvanian-Permian glacial movements across the southern continents",
+          "D": "The breakup of the supercontinent \"Rodinia\" at ~750 Ma and the formation of another supercontinent \"Pangea\" during the Permian Period."
+        },
+        "answer": "C"
+      },
+      {
+        "question": "Before the theory of plate tectonics, the mountain building process was interpreted as resulting from contraction due to cooling of the Earth. This interpretation is incorrect because",
+        "choices": {
+          "A": "the Earth has never cooled",
+          "B": "the Earth has been expanding since its formation",
+          "C": "the shortening of the earth's crust from cooling would be less than 1% but observations indicated more than 100% crust shortening in mountain belts",
+          "D": "chemical weathering prevented the Earth from cooling and contraction"
+        },
+        "answer": "C"
+      },
+      {
+        "question": "When we are interpreting the geological history of a certain area and exploring the potential reservoir layers for petroleum and water resources, we need to know the subsurface features in addition to the outcrops. One of the ways to obtain the subsurface information is to use",
+        "choices": {
+          "A": "crustal structures",
+          "B": "paleomagnetism",
+          "C": "hot spots",
+          "D": "seismic reflection profiles (artificial earthquake waves)",
+          "E": "thermal convection cells"
+        },
+        "answer": "D"
+      },
+      {
+        "question": "Magnetic stripes on the flanks of ocean ridges are evidence of",
+        "choices": {
+          "A": "paleomagnetic stability over time",
+          "B": "seafloor spreading",
+          "C": "lack of lateral movement of the oceanic crust",
+          "D": "continuous sedimentation on the sea floor"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "From the ages and cross-cutting relationship in the diagram (right), the age of Unit B can be best estimated as",
+        "choices": {
+          "A": "older than 180 m.y. (million years)",
+          "B": "younger than 110 m.y.",
+          "C": "older than 110 m.y.",
+          "D": "between 180 m.y. and 110 m.y."
+        },
+        "answer": "D"
+      },
+      {
+        "question": "The earth's magnetic field can be recorded by sediment particles falling from the water column and by ferromagnetic minerals cooling down from hot magmas. The latter is called thermo-remnant magnetism. In the following rocks, which one is the rock type you can find the minerals of thermo-remnant magnetism:",
+        "choices": {
+          "A": "Bioclastic carbonates",
+          "B": "Basalt",
+          "C": "Shale",
+          "D": "Normally graded sandstone",
+          "E": "Coal beds"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "The eastern African rift and Red Sea are examples of",
+        "choices": {
+          "A": "seafloor spreading",
+          "B": "continental rifting",
+          "C": "oceanic subduction",
+          "D": "continental collision",
+          "E": "transform fault"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "In paleogeographic studies, fossils are commonly used to infer the ancient continental connections during specific time periods. Among the following, which one is the best candidate for paleogeographic reconstruction?",
+        "choices": {
+          "A": "Zooplanktons",
+          "B": "Phytoplanktons",
+          "C": "Nektonic (swimming) animals",
+          "D": "Benthic animals and land plants",
+          "E": "Pelagic diatoms"
+        },
+        "answer": "D"
+      },
+      {
+        "question": "In the fossil record, paleontologists found that sudden changes of species occurred following or after long periods of little evolutionary progress. This evolutionary mode is called",
+        "choices": {
+          "A": "adaptive radiation",
+          "B": "phyletic gradualism",
+          "C": "punctuated equilibrium",
+          "D": "gradual evolution",
+          "E": "allopatric speciation"
+        },
+        "answer": "C"
+      },
+      {
+        "question": "We know that carbonates are precipitated from clear and warm marine environments. In the following environments, select the depositional environment where abundant carbonate deposits are most likely to be found.",
+        "choices": {
+          "A": "Alluvial fan",
+          "B": "Fluvial environments",
+          "C": "Coral reefs",
+          "D": "Glacial lakes",
+          "E": "Deep marine"
+        },
+        "answer": "C"
+      },
+      {
+        "question": "In Walther's facies law, only geographically adjacent depositional environments can overlap their depositional facies together vertically. The following diagram shows the modern depositional environments. If the sea level falls for 100 m (gradually) and a few million years later, you drill a hole at location 1, what would be the most likely vertical facies sequence that you will see in the drill core from the bottom to the top?",
+        "choices": {
+          "A": "Facies 4 → Facies 3 → Facies 2→ Facies 1",
+          "B": "Facies 3→ Facies 2→ Facies 1 Facies 4",
+          "C": "Facies 1 Facies 2→ Facies 3→ Facies 4",
+          "D": "Facies 2→ Facies 4→ Facies 3→ Facies 1",
+          "E": "Facies 1 Facies 4 Facies 2→ Facies 3"
+        },
+        "answer": "C"
+      },
+      {
+        "question": "The figure in the right marks a stratigraphic unit X in which fossils A, B, and C overlap. This stratigraphic interval is biostratigraphically called a (an)",
+        "choices": {
+          "A": "assemblage zone",
+          "B": "range zone",
+          "C": "concurrent range zone",
+          "D": "geological range",
+          "E": "geological period"
+        },
+        "answer": "C"
+      },
+      {
+        "question": "The formal lithostratigraphic (rock) unit higher in rank than a Formation is a",
+        "choices": {
+          "A": "Group",
+          "B": "biofacies",
+          "C": "Member",
+          "D": "lithofacies",
+          "E": "sequence"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "Organic matter formed through photosynthesis would have much more light carbon (¹²C) content compared to the CO₂ that they used for photosynthesis. Therefore, their δ¹³C values are",
+        "choices": {
+          "A": "lower than",
+          "B": "higher than",
+          "C": "the same as",
+          "D": "not comparable with"
+        },
+        "answer": "A"
+      },
+      {
+        "question": "As indicated in the figure (right), if we know the age ranges of fossil A (250-150 Ma), fossil B (195-110 Ma), and fossil C (160-95 Ma), the best age estimation for stratigraphic unit X would be",
+        "choices": {
+          "A": "190-160 Ma",
+          "B": "160-150 Ma",
+          "C": "250-160 Ma",
+          "D": "195-160 Ma",
+          "E": "150-95 Ma"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "Professor Paul Kaufman measured a stratigraphic section of latest Paleocene age in France and collected the samples for isotope analyses. The results show an abrupt negative shift in δ¹³C. This negative δ¹³C excursion (see the figure on the right) could have resulted from",
+        "choices": {
+          "A": "increase of organic carbon burial during the late Paleocene",
+          "B": "a methane release event from catastrophic methane hydrate destabilization in response to global warming",
+          "C": "enhanced photosynthetic primary production due to increase of nutrient supply (e.g., phosphorous and nitrate).",
+          "D": "forest proliferation and burial of widespread coal beds"
+        },
+        "answer": "B"
+      },
+      {
+        "question": "Which of the following plate boundary types and modern examples are all correctly matched?",
+        "choices": {
+          "A": "Divergent boundary (E. Africa Rift, ocean ridges); convergent boundary (west and east Pacific Plate); transform boundary (San Andreas fault; transform faults at ocean ridges)",
+          "B": "Divergent boundary (eastern Pacific Plate); convergent boundary (Red Sea); transform boundary (San Andreas fault; transform faults at ocean ridges)",
+          "C": "Divergent boundary (eastern Africa Rift, Red Sea, ocean ridges); convergent boundary (central Atlantic ocean); transform boundary (trenches in eastern Pacific)",
+          "D": "Divergent boundary (southeastern Asia); convergent boundary (Himalaya Mountains); transform boundary (mantle plumes)"
+        },
+        "answer": "A"
+      }
+    ]
+  }
+}
