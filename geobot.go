@@ -24,7 +24,7 @@ type Question struct {
 func main() {
 	botToken := os.Getenv("DISCORD_TOKEN")
 	if botToken == "" {
-		log.Fatal("Bot token is not set in the environment variable 'DISCORD_BOT_TOKEN'")
+		log.Fatal("Bot token is not set in the environment variable 'DISCORD_TOKEN'")
 	}
 
 	questions, err := loadQuestions("final.json")
