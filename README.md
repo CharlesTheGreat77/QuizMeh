@@ -4,7 +4,7 @@ Designed for fun, learning, and engagement, this bot allows you to test your kno
 
 I used aistudio to parse potential final exam questions to a json file! I would advice doing the same! 😊
 
-Features ✨
+# Features ✨
 Interactive Quizzes:
 * Supports True/False and Multiple-Choice questions.
 * Easy-to-use commands for generating quizzes.
@@ -22,8 +22,7 @@ Commands 🛠️
 !quiz random [n]	Start a quiz with n random questions.
 ```
 
-Installation 🖥️
-
+# Installation 🖥️
 Prerequisites
 	1.	Go installed (Download here).
 	2.	Discord Developer Application set up:
@@ -40,15 +39,16 @@ cd QuizMeh
 Set your bot token as an environment variable:
 
 On Linux/macOS:
-
+```
 export DISCORD_TOKEN="your-bot-token-here"
-
+```
 On Windows (Command Prompt):
-
+```
 set DISCORD_TOKEN=your-bot-token-here
-
+```
 3. Add Your Questions
 
+# Quiz question/answer(s)
 Place your final.json file with the following structure in the root directory:
 ```json
 {
@@ -84,9 +84,9 @@ Place your final.json file with the following structure in the root directory:
 go run geobot.go
 ```
 
-Contributing 🤝
+# Contributing 🤝
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-Acknowledgments 🙌
+# Acknowledgments 🙌
 Special thanks to:
 * DiscordGo for making Discord bot development easy.
