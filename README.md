@@ -33,6 +33,8 @@ go-lang
 ```bash
 git clone https://github.com/CharlesTheGreat77/QuizMeh
 cd QuizMeh
+go mod init main
+go mod tidy
 ```
 2. Add the Environment Variable
 
