@@ -81,7 +81,7 @@ Place your final.json file with the following structure in the root directory:
 
 4. Run the Bot 🚀
 ```
-go run main.go
+go run geobot.go
 ```
 
 Contributing 🤝
