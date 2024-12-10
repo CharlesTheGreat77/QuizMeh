@@ -22,12 +22,12 @@ Commands 🛠️
 !quiz random [n]	Start a quiz with n random questions.
 ```
 
-# Installation 🖥️
-Prerequisites
-	1.	Go installed (Download here).
-	2.	Discord Developer Application set up:
-	3.  Create a bot at the Discord Developer Portal.
-	4.  Copy the bot token for later use.
+# Installation 💻
+
+## Prerequisite 👏
+```
+go-lang
+```
 
 1. Clone the Repository
 ```bash
