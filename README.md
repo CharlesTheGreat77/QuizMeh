@@ -90,5 +90,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 Acknowledgments 🙌
 Special thanks to:
 * DiscordGo for making Discord bot development easy.
-
-Let me know if you’d like any further adjustments or customizations for your README!
