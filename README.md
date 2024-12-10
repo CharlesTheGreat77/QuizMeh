@@ -48,7 +48,6 @@ On Windows (Command Prompt):
 ```
 set DISCORD_TOKEN=your-bot-token-here
 ```
-3. Add Your Questions
 
 ## Quiz question/answer(s)
 Place your final.json file with the following structure in the root directory:
