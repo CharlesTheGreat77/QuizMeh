@@ -30,16 +30,16 @@ Prerequisites
 	4.  Copy the bot token for later use.
 
 1. Clone the Repository
-
+```bash
 git clone https://github.com/CharlesTheGreat77/QuizMeh
 cd QuizMeh
-
+```
 2. Add the Environment Variable
 
 Set your bot token as an environment variable:
 
 On Linux/macOS:
-```
+```bash
 export DISCORD_TOKEN="your-bot-token-here"
 ```
 On Windows (Command Prompt):
@@ -80,7 +80,7 @@ Place your final.json file with the following structure in the root directory:
 ```
 
 4. Run the Bot 🚀
-```
+```bash
 go run geobot.go
 ```
 
