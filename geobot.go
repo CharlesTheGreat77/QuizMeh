@@ -21,6 +21,8 @@ type Question struct {
 	Answer   string            `json:"answer"`
 }
 
+// TODO: Only user requesting quiz can answer the question(s)
+
 func main() {
 	botToken := os.Getenv("DISCORD_TOKEN")
 	if botToken == "" {
@@ -140,7 +142,7 @@ func runQuiz(s *discordgo.Session, channelID string, questions []Question) {
 func askQuestion(s *discordgo.Session, channelID string, q Question, messageIDs *[]string) bool {
 	choices := make([]discordgo.MessageComponent, 0, len(q.Choices))
 	for key, value := range q.Choices {
-		if len(value) > 80 { // truncate if question(s) are big asf
+		if len(value) > 80 { // truncate if question is long asf
 			value = value[:80]
 		}
 		choices = append(choices, discordgo.Button{
@@ -150,8 +152,17 @@ func askQuestion(s *discordgo.Session, channelID string, q Question, messageIDs 
 		})
 	}
 
+	embed := &discordgo.MessageEmbed{ // embed question to make lil more spiffy
+		Title:       "Quiz Time! 🧠",
+		Description: fmt.Sprintf("**%s**", q.Question),
+		Color:       0x00BFFF,
+		Footer: &discordgo.MessageEmbedFooter{
+			Text: "Select the correct option below:",
+		},
+	}
+
 	msg, err := s.ChannelMessageSendComplex(channelID, &discordgo.MessageSend{
-		Content: q.Question,
+		Embeds: []*discordgo.MessageEmbed{embed},
 		Components: []discordgo.MessageComponent{
 			discordgo.ActionsRow{Components: choices},
 		},
@@ -185,16 +196,16 @@ func askQuestion(s *discordgo.Session, channelID string, q Question, messageIDs 
 	select {
 	case answer := <-answerChan:
 		if answer == q.Answer {
-			resp, _ := s.ChannelMessageSend(channelID, "Correct!")
+			resp, _ := s.ChannelMessageSend(channelID, "✅ Correct!")
 			*messageIDs = append(*messageIDs, resp.ID)
 			return true
 		} else {
-			resp, _ := s.ChannelMessageSend(channelID, fmt.Sprintf("Wrong! The correct answer was: %s", q.Choices[q.Answer]))
+			resp, _ := s.ChannelMessageSend(channelID, fmt.Sprintf("❌ Wrong! The correct answer was: **%s**", q.Choices[q.Answer]))
 			*messageIDs = append(*messageIDs, resp.ID)
 			return false
 		}
-	case <-time.After(20 * time.Second):
-		resp, _ := s.ChannelMessageSend(channelID, "Time's up! Moving to the next question.")
+	case <-time.After(45 * time.Second): // 45 sec. to answer each question! 
+		resp, _ := s.ChannelMessageSend(channelID, "⏰ Time's up! Moving to the next question.")
 		*messageIDs = append(*messageIDs, resp.ID)
 		return false
 	}
