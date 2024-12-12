@@ -10,7 +10,7 @@ Interactive Quizzes:
 * Easy-to-use commands for generating quizzes.
 * Random or Sequential Questions.
 
-Commands 🛠️
+# Commands 🛠️
 ```
 !quiz [n]	Start a quiz with the first n questions.
 !quiz random [n]	Start a quiz with n random questions.
