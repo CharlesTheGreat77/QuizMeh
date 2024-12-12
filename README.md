@@ -8,13 +8,7 @@ I used aistudio to parse potential final exam questions to a json file! I would 
 Interactive Quizzes:
 * Supports True/False and Multiple-Choice questions.
 * Easy-to-use commands for generating quizzes.
-* Random or Sequential Questions:
-* Choose to answer questions in order or let the bot pick randomly.
-
-
-Immediate Feedback:
-* Tells you if your answer is correct or wrong.
-* Displays the correct answer for incorrect responses.
+* Random or Sequential Questions.
 
 Commands 🛠️
 ```
